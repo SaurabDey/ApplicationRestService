@@ -1,0 +1,7 @@
+---
+applications:
+- name: ApplicationRestService
+  memory: 768M
+  path: target\ApplicationRestService-0.0.1-SNAPSHOT.jar
+  instances: 1
+  random-route: true
